@@ -3,13 +3,13 @@ const Toodo_form =()=>{
    <div className="input_div">
         <form>
             <h1 className="heading">TODO LIST</h1>
-            <p className="heading1">A Simple react todo list </p>
+            <p className="heading1">A Simple todo list </p>
           <label className="name"><h1>New Todo</h1>
-            <input className="name_input" type="text" />
+            <input className="name_input" placeholder="Your Task"type="text" />
           </label>
           <div>
-          <h1 className="selecter">Priority Task</h1>
-           <select name="select">
+          <h1 className="selecter">Your Priority</h1>
+           <select className="select">
                  <option value="Select">Select</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -17,7 +17,7 @@ const Toodo_form =()=>{
            </select>
           </div>
           <label className="Time"><h1>Time Limit</h1>
-            <input className="Time_text" type="text" />
+            <input className="Time_text" placeholder="Your Time" type="text" />
           </label>
           <button className="btn">ADD TODO</button>
         </form>
