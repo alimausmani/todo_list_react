@@ -9,8 +9,8 @@ const Toodo_form =()=>{
           </label>
           <div>
           <h1 className="selecter">Priority Task</h1>
-           <select name="select">
-                 <option value="Select">Select</option>
+           <select className="select">
+                <option value="Select">Select</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
