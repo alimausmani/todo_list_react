@@ -8,8 +8,8 @@ const Toodo_form =()=>{
             <input className="name_input" placeholder="Your Task"type="text" />
           </label>
           <div>
-          <h1 className="selecter">Your Priority</h1>
-           <select className="select">
+          <h1 className="selecter">Priority Task</h1>
+           <select name="select">
                  <option value="Select">Select</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
