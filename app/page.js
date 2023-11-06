@@ -1,10 +1,10 @@
 import React from "react";
-import Todo_form from "./todo_form";
+import Toodo_form from "./toodo_form.js";
 import "./globals.css";
 
 const Page =()=>{
   return(
-    <Todo_form/>
+    <Toodo_form/>
   );
 }
 export default Page;
