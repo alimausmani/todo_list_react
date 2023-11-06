@@ -22,7 +22,7 @@ const Toodo_form =()=>{
           <button className="btn">ADD TODO</button>
         </form>
    </div>     
-  );
+  )
 }
    
 export default Toodo_form;
