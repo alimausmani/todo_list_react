@@ -4,7 +4,9 @@ import "./globals.css";
 
 const Page =()=>{
   return(
-    <Toodo_form/>
+    <>
+      <Toodo_form/>
+    </>
   );
 }
 export default Page;
